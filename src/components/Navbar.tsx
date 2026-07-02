@@ -42,11 +42,10 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
             ? "bg-white/90 backdrop-blur-lg shadow-nav"
             : "bg-white/70 backdrop-blur-sm"
-        }`}
+          }`}
       >
         <div className="container-main">
           <div className="flex items-center justify-between h-16 md:h-20">
@@ -56,7 +55,7 @@ export default function Navbar() {
                 SC
               </div>
               <span className="font-heading font-bold text-xl text-text hidden sm:block">
-                Sole<span className="text-primary">Care</span>
+                Cucci<span className="text-primary">Malang</span>
               </span>
             </Link>
 
@@ -71,11 +70,10 @@ export default function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
-                      isActive
+                    className={`relative px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${isActive
                         ? "text-primary"
                         : "text-gray-600 hover:text-text hover:bg-gray-50"
-                    }`}
+                      }`}
                   >
                     {link.label}
                     {isActive && (
@@ -157,11 +155,10 @@ export default function Navbar() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className={`px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 ${
-                        isActive
+                      className={`px-4 py-3 rounded-xl text-base font-medium transition-all duration-200 ${isActive
                           ? "bg-primary-50 text-primary"
                           : "text-gray-600 hover:bg-gray-50 hover:text-text"
-                      }`}
+                        }`}
                     >
                       {link.label}
                     </Link>
