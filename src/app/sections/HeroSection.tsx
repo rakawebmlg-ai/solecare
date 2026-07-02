@@ -41,7 +41,7 @@ export default function HeroSection() {
           className="text-4xl md:text-5xl lg:text-7xl font-heading font-extrabold text-center text-text leading-[1.1] mb-6 max-w-4xl mx-auto"
         >
           Cuci Sepatu di{" "}
-          <span className="text-gradient">Bandung</span>,{" "}
+          <span className="text-gradient">Malang</span>,{" "}
           <br className="hidden md:block" />
           Bersih, Cepat,{" "}
           <span className="relative inline-block">
